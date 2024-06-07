@@ -1,0 +1,140 @@
+.about-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 90px;
+    position: relative;
+    /* width: 100%; */
+    justify-content: center;
+}
+
+.about-flex-left {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-flex-left .about-details-upper {
+    width: 80%;
+    height: 90%;
+    padding-top: 20%;
+    overflow: hidden;
+}
+
+.about-flex-left .about-details-bottom {
+    width: 100%;
+    height: 20%;
+    background-color: #FFDBC7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-flex-left .about-details-bottom h5 {
+    font-family: 'Raleway';
+    font-weight: 400;
+    margin: 0;
+}
+
+
+.about-flex-left .about-details-upper h1 {
+    font-size: calc(1.2*(1vh + 1vw));
+    font-family: 'Raleway';
+    margin-bottom: 3%;
+}
+
+
+.cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    /* Adjust the height as needed */
+    background-color: #000;
+    /* Cursor color */
+    opacity: 1;
+    animation: blinkCursor 0.7s infinite;
+}
+
+/* Animation for the blinking cursor */
+@keyframes blinkCursor {
+    0% {
+        background-color: black;
+    }
+
+    49% {
+        background-color: black;
+    }
+
+    50% {
+        background-color: transparent;
+    }
+
+    99% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: black;
+    }
+}
+
+/* Additional style when the cursor is in typing mode */
+.cursor.typing {
+    background-color: transparent;
+    /* Hide cursor when typing */
+    animation: none;
+    /* Remove the blinking animation */
+}
+
+.about-flex-left .about-details-upper h3 {
+    width: 90%;
+    font-weight: 400;
+    line-height: 35px;
+    font-size: calc(0.85*(1vh + 1vw));
+}
+
+
+.about-flex-right {
+    display: block;
+    height: 60vh;
+    width: 35%;
+    background-color: #FDE6D8;
+}
+
+.about-flex-right .right-up-corner {
+    margin: -15px 0px 0px -9px;
+    width: 15%;
+}
+
+.about-flex-right .right-up-corner h5 {
+    font-size: calc(0.4*(1vh + 1vw));
+    margin: 0;
+    color: #D29878;
+    letter-spacing: 8px;
+    line-height: 15px;
+}
+
+.about-flex-right .left-down-corner {
+    margin: 0px 0px -15px 15px;
+    text-align: end;
+    position: absolute;
+    width: 35%;
+    bottom: 0;
+
+
+}
+
+.about-flex-right .left-down-corner h5 {
+    font-size: calc(0.4*(1vh + 1vw));
+    margin: 0;
+    color: #D29878;
+    letter-spacing: 8px;
+    line-height: 15px;
+}
+
+.about-flex-right img {
+    width: 38vh;
+    height: 51vh;
+    float: right;
+    margin: -17px -18px 0px 0px;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+.Know-title h1 {
+    font-family: 'Borel';
+    font-size: calc(1.2*(1vh + 1vw));
+    /* text-align: center; */
+    margin-top: 160px;
+}
+
+.know-content p {
+    justify-content: center;
+    font-family: 'Raleway';
+    font-size: calc(0.7*(1vh + 1vw));
+    line-height: 35px;
+}
+
+
+.know-content .edu {
+    width: 80%;
+}
+
+.know-content .edu h1 {
+
+    font-family: 'Raleway';
+    font-size: calc(1*(1vh + 1vw));
+    /* text-align: center; */
+    margin-top: 3%;
+    margin-bottom: 1%;
+
+}
+
+.know-content .edu .edu_details {
+    margin-bottom: 1%;
+}
+
+.know-content .edu .edu_details h3,
+h4 {
+    font-family: 'Raleway';
+    font-size: calc(0.7*(1vh + 1vw));
+    margin: 0;
+}
+
+.know-content .skills h1 {
+    font-family: 'Raleway';
+    font-size: calc(1*(1vh + 1vw));
+    /* text-align: center; */
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.know-content Button {
+    margin-bottom: 1%;
+}
